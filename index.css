@@ -1,0 +1,647 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.library-container{
+    height: 1500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.library-inner-container{
+    height: 90%;
+    width: 80%;
+    display: flex;
+    
+}
+
+.navbar-container{
+    height: 60%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navbar-start-container{
+    height: 30%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navbar-start-icon-container{
+    flex-grow: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.navbar-start-icon-container i{
+    font-size: 23px ;
+    color: grey;
+    margin: 0px 30px;
+    
+}
+
+.navbar-start-profile-container{
+    flex-grow: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar-start-profile-image-container{
+    height: 100px;
+    width: 100px;
+    background: #e0e0e0;
+    border: #ffffff solid 2px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+    
+
+}
+
+.navbar-start-profile-image-container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    
+
+}
+
+.navbar-start-profile-name-container{
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: #BFBFBF solid 2px;
+}
+
+.navbar-start-profile-name-container h2{
+    font-size: 27px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.navbar-middle-container{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: #BFBFBF solid 2px;
+}
+
+
+.navbar-item-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    cursor: pointer;
+    border-radius: 5px;
+    
+    
+}
+
+.navbar-item-container:hover{
+    background-color:#1c3466;    
+}
+
+
+
+.navbar-item-container p{
+    margin-right: 15%;
+    color: #A6A6A6 ;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    
+}
+
+.navbar-item-container i{
+    margin-right: 10px;
+    color: #A6A6A6 ;
+    font-size: 21px;
+   
+}
+
+
+.navbar-end-container{
+    height: 20%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: #BFBFBF solid 2px;
+    
+}
+
+.main-container{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-top-container{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* ----------------- EN üstteki Animasyon Başlangıç ----------------------------*/
+
+.main-top-inner-container{
+    height: 90%;
+    width: 90%;
+    border-radius: 15px;
+    
+}
+
+.track{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    
+}
+
+.slide{
+    height: 100%;
+    width: 400%;
+    display: flex;
+    transition: all .5s ease;
+    
+}
+
+.slide .images{
+    flex-basis: 100%;
+    display: flex;
+    position: relative;
+    
+}
+
+.slide .images img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+
+.slide .images .images-description-1{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C0C0D;
+    
+}
+
+.slide .description-1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    
+}
+
+.slide .description-1 span{
+    
+    font-size: 60px;
+    font-weight: bolder;
+    background: linear-gradient(
+        90deg,
+        #866ee7,
+        #ea60da,
+        #ed8f57,
+        #fbd41d,
+        #2cca91
+      );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: block;
+}
+
+
+.slide .images .images-description-2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.slide .description-2{
+   
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 38px;
+    text-align: center;
+    background-color: #be1238;
+    border-radius: 10px;
+    padding: 15px 10px;
+    
+}
+
+
+
+
+
+
+.slide .images .images-description-3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.slide .description-3{
+    margin-bottom: 180px;
+    margin-right: 100px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+
+
+
+
+.arrow-container .arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    
+   
+}
+
+.arrow-container .arrow i{
+    font-size: 60px;
+    color: white;
+    
+}
+
+.arrow-container .left.arrow{
+    left: 10px;
+}
+
+
+.arrow-container .right.arrow{
+    right: 10px;
+}
+
+.arrow-container ul{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    display: flex;
+    list-style: none;
+
+}
+
+
+.arrow-container ul li{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #BFBFBF;
+    border: #101010 solid 1px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.arrow-container ul li.selected{
+    background-color: white;
+
+}
+
+
+
+/* ----------------- EN üstteki Animasyon BİTİŞŞŞ ----------------------------*/
+
+
+/* ----------------- Alttaki 1.Animasyon Başlangıç ----------------------------*/
+
+
+.main-bottom-container{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-bottom-item-container{
+    height: 50%;
+    width: 100%;
+    
+}
+
+.main-bottom-title-container{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.main-bottom-title-container h1{
+    font-size: 40px;
+    color: #101010;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 20px;
+}
+
+.main-bottom-title-container button{
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 40px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #f3f3f3;
+    border-style: none;
+    color: #101010;
+    font-weight: bolder;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.main-bottom-title-container button span{
+    margin-left: 5px;
+    color: #101010;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+                            
+.main-bottom-slider-container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+                            
+.carousel-container{
+    min-height: 200px;
+    width: 1155px;
+    position: relative;
+}
+
+
+.carousel-inner-container{
+    overflow: hidden;
+}
+.animation-bottom-container{
+    display: inline-flex;
+    transition: all .5s;
+    
+}
+
+.card-container{
+    height: 310px;
+    width: 234px;
+    padding-right: 15px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image{
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
+
+
+.card-title{
+    height: 10%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-title p{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.card-author{
+    height: 10%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-author p{
+    font-size: 15px;
+    color: #9b9b9b;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.controls button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-60%);
+    border-style: none;
+    background-color:#101010;
+    cursor: pointer;
+    
+
+}
+
+.controls button i{
+    font-size: 25px;
+    color:#F2F2F2;
+}
+
+
+.controls .prev{
+    left: -20px;
+    display: none;
+}
+
+.controls .prev.show{
+    display: block;
+    
+}
+
+.controls .next{
+    right: -20px;
+    
+}
+
+.controls .next.hide{
+    display: none;
+    
+}
+
+/* ----------------- Alttaki 1.Animasyon Bitiş ----------------------------*/
+
+
+
+/* ----------------- Alttaki 2.Animasyon Başlangıç ----------------------------*/
+
+
+
+                       
+.main-bottom-slider-container2{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+                            
+.carousel-container2{
+    min-height: 200px;
+    width: 1155px;
+    position: relative;
+}
+
+
+.carousel-inner-container2{
+    overflow: hidden;
+}
+.animation-bottom-container2{
+    display: inline-flex;
+    transition: all .5s;
+    
+}
+
+.card-container2{
+    height: 310px;
+    width: 234px;
+    padding-right: 15px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image2{
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-image2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
+
+
+.card-title2{
+    height: 10%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-title2 p{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.card-author2{
+    height: 10%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-author2 p{
+    font-size: 15px;
+    color: #9b9b9b;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.controls2 button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-60%);
+    border-style: none;
+    background-color:#101010;
+    cursor: pointer;
+    
+
+}
+
+.controls2 button i{
+    font-size: 25px;
+    color:#F2F2F2;
+}
+
+
+.controls2 .prev2{
+    left: -20px;
+    display: none;
+}
+
+.controls2 .prev2.show{
+    display: block;
+    
+}
+
+.controls2 .next2{
+    right: -20px;
+    
+}
+
+.controls2 .next2.hide{
+    display: none;
+    
+}

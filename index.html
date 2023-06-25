@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Library Project</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="library-container">
+        <div class="library-inner-container">
+            <div class="navbar-container">
+                <div class="navbar-start-container">
+                    <div class="navbar-start-icon-container">
+                        <i class="fa-regular fa-bell"></i>
+                        <i class="fa-regular fa-message"></i>
+                    </div>
+                    <div class="navbar-start-profile-container">
+                        <div class="navbar-start-profile-image-container">
+                            <img src="https://images.unsplash.com/photo-1635839090719-72082060a39e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="">
+                        </div>
+                    </div>
+                    <div class="navbar-start-profile-name-container">
+                        <h2>Aslı Korkmaz</h2>
+                    </div>
+                    
+                </div>
+                <div class="navbar-middle-container">
+                    <div class="navbar-item-container">
+                        <i class="fa-regular fa-file-lines"></i>
+                        <p>Classroom</p>
+                    </div>
+                    <div class="navbar-item-container">
+                        <i class="fa-regular fa-paste"></i>
+                        <p>Homework</p>
+                    </div>
+                    <div class="navbar-item-container">
+                        <i class="fa-solid fa-headphones"></i>
+                        <p>Audio Books</p>
+                    </div>
+                    <div class="navbar-item-container">
+                        <i class="fa-solid fa-book"></i>
+                        <p>My Library</p>
+                    </div>
+                    <div class="navbar-item-container">
+                        <i class="fa-solid fa-user-group"></i>
+                        <p>Classmates</p>
+                    </div>
+                </div>
+                <div class="navbar-end-container">
+                    <div class="navbar-item-container">
+                        <i class="fa-solid fa-gear"></i>
+                        <p>User Settings</p>
+                    </div>
+                    <div class="navbar-item-container">
+                        <i class="fa-regular fa-circle-question"></i>
+                        <p>Information</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-container">
+                <div class="main-top-container">
+                    <div class="main-top-inner-container">
+                        <div class="track">
+                            <div class="slide">
+                                <div class="images">
+                                    <img  style="width: 50%; object-fit: scale-down; background-color:#0C0C0D; border-radius: 0%;" src="img/pngaaa.com-58387.png" alt="">
+                                    <div class="images-description-1">
+                                        <p class="description-1"><span>New Superhero</span><br>Magazines Are Out!!</p>     
+                                    </div>
+                                </div>
+                                <div class="images">
+                                    <img src="https://images.unsplash.com/photo-1488953763695-c4a79ecf4727?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80" alt="">
+                                    <div class="images-description-2">
+                                        <p class="description-2">The old magazines are still not gone...</p>     
+                                    </div>
+                                </div>
+                                <div class="images">
+                                    <img src="https://images.unsplash.com/photo-1434652917459-36f6692da944?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1578&q=80" alt="">
+                                    <div class="images-description-3">
+                                        <p class="description-3">You can read comfortably from your tablet or phone <br> even if you don't have your book with you.</p>     
+                                    </div>
+                                    
+                                </div>
+                                <div class="images">
+                                    <img style="background-color: #0C0C0D; object-fit: scale-down;" src="img/pngaaa.com-909733.png" alt="">
+                                </div>
+                            </div>
+                            <div class="arrow-container">
+
+                                <span class="left arrow"><i class="fa-solid fa-caret-left"></i></span>
+                                <span class="right arrow"><i class="fa-solid fa-caret-right"></i></span>
+
+                                <ul>
+                                    <li class="selected"></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="main-bottom-container">
+                    <div class="main-bottom-item-container">
+                        <div class="main-bottom-title-container">
+                            <h1>My Library</h1>
+                            <button>View all <span><i class="fa-solid fa-angle-right"></i></span></button>
+                        </div>
+                        <div class="main-bottom-slider-container">
+                            <div class="carousel-container">
+                                <div class="carousel-inner-container">
+
+                                    <div class="animation-bottom-container">
+
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-909763.png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>Echer Vaults Power</p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-Jonothon Galassi</p>
+                                            </div>
+                                        </div>
+    
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-909839.png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>Love Story</p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-James Hedwig</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-909865.png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>Prey For Me</p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-JK Fischer</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-909873.png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>American Queen</p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-Sierra Simone</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-909867.png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>Mystic Bonds</p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-C.G Solomon</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-1025221.png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>Blood & Magic</p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-Melissa Sercia</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-1025230.png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>Blood Tease</p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-M.A. Leon</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-1220749.png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>Hope Heals</p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-Joni Aericksen</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-2324733.png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>Neuro Dharma</p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-Rick Hanson</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-2324822.png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>Code Name: Beatriz </p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-Lou Cadle</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-2623191.png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>Made For A Land</p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-Lianna Davis</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-1431022.png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>Expert Secrets</p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-Jonothon Galassi</p>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-2324776.png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>Mobituaries</p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-Mo Rocca</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="card-container">
+                                            <div class="card-image">
+                                                <img src="img/pngaaa.com-909869 (1).png" alt="">
+                                            </div>
+                                            <div class="card-title">
+                                                <p>Only Women Room</p>
+                                            </div>
+                                            <div class="card-author">
+                                                <p>-Marie Benedict</p>
+                                            </div>
+                                        </div>
+                                     
+                                    </div>        
+                                </div>
+                                <div class="controls">
+                                    <button class="prev"><i class="fa-solid fa-chevron-left"></i></button>
+                                    <button class="next"><i class="fa-solid fa-chevron-right"></i></button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-bottom-item-container">
+                        <div class="main-bottom-title-container">
+                            <h1>Children</h1>
+                            <button>View all<span><i class="fa-solid fa-angle-right"></i></span></button>
+                        </div>
+                        <div class="main-bottom-slider-container2">
+                            <div class="carousel-container2">
+                                <div class="carousel-inner-container2">
+
+                                    <div class="animation-bottom-container2">
+
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-1025120.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>My Name Is: Jack</p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-Daniello Pervoni</p>
+                                            </div>
+                                        </div>
+    
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-1025192.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>Magic Letters</p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-Marco Stella</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-1025193.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>Money Magic</p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-Bernadette Wulf</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-1025204.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>Wizard Academy</p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-John Carney</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-1025260.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>Paint By Sticker</p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-Ellan Louise</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-8239536.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>Book Nerd</p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-Holly Meguire</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-2324836.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>Awesome Technology</p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-Sean Conolly</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-1988719.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>Wolverine Comics</p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-Marvel</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-1025141.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>Magic: The Gathering</p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-Jace Ocanner</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-1025099.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>Nema's Magic </p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-Barbara Donellan</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-212493.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>Minecraft</p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-Redstone</p>
+                                            </div>
+                                        </div>
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-58387.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>The New Avengers</p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-Marvel</p>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-909809.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>The Abandoned Clunker</p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-Morty McClain</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="card-container2">
+                                            <div class="card-image2">
+                                                <img src="img/pngaaa.com-1025188.png" alt="">
+                                            </div>
+                                            <div class="card-title2">
+                                                <p>Agents of Mayhem</p>
+                                            </div>
+                                            <div class="card-author2">
+                                                <p>-Cameron Stone</p>
+                                            </div>
+                                        </div>
+                                     
+                                    </div>        
+                                </div>
+                                <div class="controls2">
+                                    <button class="prev2"><i class="fa-solid fa-chevron-left"></i></button>
+                                    <button class="next2"><i class="fa-solid fa-chevron-right"></i></button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
